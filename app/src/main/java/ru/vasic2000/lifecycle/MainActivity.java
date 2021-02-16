@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
         outState.putInt(score1, count1);
         outState.putInt(score2, count2);
         outState.putInt(score3, count3);
+
+        Toast.makeText(getApplicationContext(), "InstanceSave", Toast.LENGTH_SHORT).show();
     }
 
 
